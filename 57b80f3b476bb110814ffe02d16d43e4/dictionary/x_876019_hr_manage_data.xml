@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2c594bbb476bb110814ffe02d16d43f6" label="Data" max_length="40" name="x_876019_hr_manage_data" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Additional Details" max_length="200" name="additional_details" type="string"/>
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee Name" max_length="40" name="employee_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee Number" max_length="40" name="employee_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Mobile Number" max_length="40" name="mobile_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
